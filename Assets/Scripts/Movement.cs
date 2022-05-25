@@ -25,7 +25,7 @@ public class Movement : MonoBehaviour
     }
 
     // Thrusting
-    void ProcessThrust()
+    public void ProcessThrust()
     {
         if (Input.GetKey(KeyCode.Space))
         {
